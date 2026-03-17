@@ -1,3 +1,4 @@
+HEAD
 # Metadata Service
 
 A lightweight API for managing dataset metadata and lineage tracking, built with FastAPI and MySQL.
@@ -257,4 +258,3 @@ LOG_LEVEL=INFO
 ## License
 
 MIT
-
