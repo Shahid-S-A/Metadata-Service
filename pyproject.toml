@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "metadata-service"
+version = "0.1.0"
+description = "Metadata service for managing and searching metadata"
+authors = ["Your Name <you@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.0"
+uvicorn = "^0.24.0"
+sqlalchemy = "^2.0.0"
+pydantic = "^2.0.0"
+pydantic-settings = "^2.0.0"
+alembic = "^1.12.0"
+python-dotenv = "^1.0.0"
+pymysql = "^1.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.0.0"
+ruff = "^0.1.0"
+pre-commit = "^3.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
